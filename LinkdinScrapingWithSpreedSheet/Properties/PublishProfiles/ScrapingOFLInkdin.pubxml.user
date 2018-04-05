@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\Web Application\PUBLISH\GoogleApi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/14/2018 12:01:11</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/14/2018 12:01:11</publishTime>
+    </File>
+    <File Include="bin/client_secret.json">
+      <publishTime>03/14/2018 13:54:36</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>07/31/2013 14:33:56</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.dll">
+      <publishTime>08/02/2018 10:32:30</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>08/02/2018 10:32:30</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>08/02/2018 10:32:24</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>08/02/2018 10:32:30</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>08/02/2018 10:32:30</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Sheets.v4.dll">
+      <publishTime>03/13/2018 08:54:32</publishTime>
+    </File>
+    <File Include="bin/LinkdinScrapingWithSpreedSheet.dll">
+      <publishTime>03/16/2018 14:48:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>07/12/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>10/03/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>09/03/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>10/03/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>09/03/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/14/2015 22:36:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 11:53:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/04/2017 17:46:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 16:49:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 16:49:46</publishTime>
+    </File>
+    <File Include="bin/Spring.Rest.dll">
+      <publishTime>07/31/2013 14:33:56</publishTime>
+    </File>
+    <File Include="bin/Spring.Social.Core.dll">
+      <publishTime>07/31/2013 14:33:56</publishTime>
+    </File>
+    <File Include="bin/Spring.Social.LinkedIn.dll">
+      <publishTime>03/14/2018 22:17:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/27/2015 23:34:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/27/2015 23:32:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/27/2015 23:32:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/27/2015 23:34:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/27/2015 23:34:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/27/2015 23:34:30</publishTime>
+    </File>
+    <File Include="client_secret.json">
+      <publishTime>03/14/2018 13:54:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/14/2018 12:00:51</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/16/2018 14:24:28</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>03/14/2018 12:01:11</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>03/14/2018 12:01:11</publishTime>
+    </File>
+    <File Include="Views/Default/AutenticationURL.cshtml">
+      <publishTime>03/15/2018 15:31:04</publishTime>
+    </File>
+    <File Include="Views/Default/Index.cshtml">
+      <publishTime>03/14/2018 12:06:04</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>03/14/2018 12:00:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/16/2018 14:27:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

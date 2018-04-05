@@ -1,0 +1,48 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AutenticationURL</title>
+    <style>
+        td {
+            border:dotted;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>List of Scraped Url</h1>
+    <div>
+        <table style="border:solid black">
+            <tr>
+                <td>First Name</td>
+                <td>Full Name</td>
+                <td>Headline</td>
+                <td>School</td>
+                <td>Job</td>
+                <td>Graduation Year</td>
+                <td>Summary</td>
+                <td>All Postion</td>
+                <td>LinkedIn URL</td>
+            </tr>
+            @foreach (var item in ((List<LinkdinScrapingWithSpreedSheet.Controllers.LinkdinCloneData>)ViewBag.LinkdinScrpedList))
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.FullName</td>
+                    <td>@item.Headline</td>
+                    <td>@item.School</td>
+                    <td>@item.Job</td>
+                    <td>@item.GraduationYear</td>
+                    <td>@item.summary</td>
+                    <td>@item.AllPostions</td>
+                    <td>@item.LinkedInURL</td>
+                </tr>
+
+            }
+        </table>
+    </div>
+</body>
+</html>
